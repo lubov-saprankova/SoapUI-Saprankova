@@ -9,14 +9,14 @@
             <dataSource type="POOLED">
                 <property name="driver" value="org.postgresql.Driver"/>
                 <property name="url"
-                          value="jdbc:postgresql://127.0.0.1:5433/postgres"/>
+                          value="jdbc:postgresql://127.0.0.1:5432/postgres"/>
                 <property name="username" value="postgres"/>
                 <property name="password" value="1"/>
             </dataSource>
         </environment>
     </environments>
     <mappers>
-        <mapper resource="lesson6\db\mapper\xml\CategoriesMapper.xml"/>
-        <mapper resource="lesson6\db\mapper\xml\ProductsMapper.xml"/>
+        <mapper resource="src/main/java/ru/geekbrains/mini.market/lesson6\db\mapper\xml\CategoriesMapper.xml"/>
+        <mapper resource="src/main/java/ru/geekbrains/mini.market/lesson6\db\mapper\xml\ProductsMapper.xml"/>
     </mappers>
 </configuration>
